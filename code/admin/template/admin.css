@@ -1,0 +1,278 @@
+﻿#admin.css
+
+
+/* padding 3 5 10 */
+.padding-0{
+	padding: 0px;
+}
+.padding-3{
+	padding: 3px;
+}
+.padding-5{
+	padding: 5px;
+}
+.padding-10{
+	padding: 10px;
+}
+/*margin 3 5 10*/
+.margin-3{
+	margin: 3px;
+}
+.margin-5{
+	margin: 5px;
+}
+.margin-10{
+	margin: 10px;
+}
+.width-10{
+	width: 10%;
+}
+.width-20{
+	width: 20%;
+}
+.width-30{
+	width: 30%;
+}
+.hide{
+	display: none;
+}
+.left_col{
+	text-decoration:none;
+	}
+.left_col ul li a{
+	background: #222;
+	color:#FFF;
+	display: block;
+	padding: 9px;
+
+	}
+.left_col ul li .selected,
+.left_col ul li a:hover,
+.left_col ul li a:focus,
+.left_col ul li a:active,
+.left_col ul i a:visited{
+	background: #333;
+	
+	}
+.left_col h2,
+.left_col ul li{
+	color: #fff;
+	}
+
+.left_col ul{
+	display: block;
+	text-decoration:none;
+	}	
+.left_col ul li{
+	list-style:none;
+	}
+/* CSS admin.php
+*/
+.header .title{
+	padding:15px 0px !important;
+}
+
+.left_col{
+	display: block;
+	
+}
+.left_col .nav-stacked>li+li{
+	margin-top:0;
+}
+.left_col .nav-pills>li>a{
+	border-radius: 0px;
+}
+.right_col{
+	display: block;
+	width: 79%;
+	float: left;
+}
+
+.left_col a:link{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.left_col a:hover,
+.left_col a:focus,
+{
+	text-decoration: none !important;
+}
+.icon-head{
+	
+	background-position: 0px -116px;
+	margin: -2px 2px 0 0;
+	}
+.text_title{
+	#position: absolute;
+	color: #fff;
+	font-size: 18px;
+}
+.user_title{
+	float: right !important;
+	color: #fff;
+	#margin-right: 130px;
+	}
+.menuitem{
+	margin: auto 5px; 
+}
+.quanlynguoidung{
+	padding: 10px;
+
+}
+.right_col .quanlynguoidung. table,
+.right_col .quanlynguoidung. td{
+	border: 1px solid;
+}
+.thongke,.themnhanh{
+	padding: 10px;
+}
+.thongke a{
+	color: #2a6496;
+}
+.right_col{
+	min-height: 500px !important	;
+}
+
+.menu h2{
+	background: #333 !important; 
+	color:#FFF !important;
+	font-weight: bolder;
+	}
+.right_col{
+	width: 80%;
+	display: block;
+	float: left;
+	background:#FFF;
+	border-left: 1px solid #9CF;
+	min-height: 800px;	
+	}
+.right_col .player, .list{
+	margin: 0px 3px 10px 3px;
+}
+.right_col .list{
+	position: relative;
+	padding: 15px;
+	margin: 5px ;
+	background-color: #fafafa;
+	box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+	border-color: #e5e5e5 #eee #eee;
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+.footer{
+	background: #333; 
+	height: 100px;
+	width: 100%;
+	min-width: 450px;
+	margin: 0px;
+	}
+.foot_menu{
+	
+	margin: auto;
+	padding-top: 10px;
+
+	}
+.footer .foot_menu li,
+.footer .foot_menu a{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	padding: 2px 5px;
+	}
+.footer .rol_top {
+	padding: 5px;
+	margin: 15px;
+	float: right;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	border: #fff 1px solid;
+	}
+/* Phanhoi.php */
+
+ 
+*{
+margin:0; padding:0;}
+
+
+
+#wrapper{
+		width: 1000px;
+		margin: 0 auto; 
+}
+
+#wrap {
+  	margin-top: 70px;
+}
+
+#container h3, h3 {
+	border-bottom:1px solid #ccc !important;outline:0;
+	vertical-align:baseline;background:transparent;
+	padding: 0px 0px 5px 10px;
+	margin-top: 10px  !important;
+	font-family: 'UTM Avo'  !important;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* login_form */
+*{
+	font: 14px Arial;
+	}
+.login_form{
+	max-width: 400px;
+	height: 230px;
+	padding: 0px;
+	border: 1px solid #96F;
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+	margin: 30px auto;
+	}
+.login_form form{
+	padding: 10px;`
+	}
+.login_form p{
+	background: #96F;
+	font-weight: bold !important;
+	display: block;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	margin: 0px;
+	padding: 10px;`
+	}
+ 
+	
+/* end login_form */
+/* -------------------------
+File CSS cho admin
+
+Người viết: Thái Thanh Nhàn
+MSSV: 1111427
+Email: thanhnhan2tn@gmail.com
+
+----------------------------*/
+
+
+
+
+/*Gopy*/
+.gopy table th{
+	background-image: -webkit-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
+	background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+	background-repeat: repeat-x;
+	border: 1px solid #ccc;
+}
+.gopy table td{
+	border: 1px solid #ccc;
+}
+.hidden{
+	display: none;
+}
+.showmobile{
+	display: block;
+}
+
+/*End Gopy*/

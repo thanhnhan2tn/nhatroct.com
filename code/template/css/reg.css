@@ -1,0 +1,58 @@
+.reg label{
+	display: block;
+	margin-top: 7px;
+}
+.reg input{
+	display: inline-block;
+	-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #848484; 
+	margin-top:7px;
+}
+.reg sup{
+	color: red;
+}
+.reg .label_left{
+	display :block;
+	width: 30%;
+	float: left;
+	#text-align:center;
+}
+.reg .input_right{
+	width: 69%;
+	float:right;
+	
+}
+.reg .textbox{
+	-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #848484; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+}
+.reg .textbox:hover{
+	background-color:	#F2F2DC;
+}
+.reg .btn{
+	width:83px; 
+	height:39px;
+}
+.reg .btn:hover{
+	background-color: 	#999999;
+}
+.reg fieldset{
+	border: 1px solid #C0C0C0;
+	margin: 0px 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+.reg form{
+	width: 100%;
+	margin: 0 auto;
+	}
+.reg .check{
+	color: red;
+	font-style: italic;
+}
